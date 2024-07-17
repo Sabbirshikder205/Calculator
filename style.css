@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+.Calculator{
+    border: 1px solid #ffffff;
+    padding: 20px;
+    border-radius: 16px;
+    background: black;
+    box-shadow: 0px 3px 15px rgba("113, 115, 119, 0.5");
+    background: black;
+}
+
+input{
+    width: 300px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: black;
+    box-shadow: 0px 3px 15px rgba("84, 84, 84, 0.1");
+    font-size: 40px;
+    text-align: right;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+}
+
+input::placeholder{
+    color: #ffffff;
+}
+
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: black;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.WesBtn{
+    color: #e400ff; 
+}
+.equalBtn{
+    background: #ff000c;
+}
+
+.DdBtn{
+    color: #00ff2e;
+     
+}
